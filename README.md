@@ -219,7 +219,3 @@ module top(
 endmodule
 ```
 
-## Final Notes
-I did my best to follow the material from the textbook and model my work on the datapath diagrams and explanations from chapter 4.
-I'm open to feedback on any mistakes. If this looks okay, I think I can build upon the starting modules here and work on the other 
-pieces like the decoder, ALU, supporting branch/jump instructions, etc.
