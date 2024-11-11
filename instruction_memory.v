@@ -32,7 +32,7 @@
 //
 //////////////////////////////////////
 
-module memory2c (data_out, data_in, addr, enable, wr, createdump, clk, rst);
+module instruction_memory (data_out, data_in, addr, enable, wr, createdump, clk, rst);
 
    output  [31:0] data_out;
    input [31:0]   data_in;

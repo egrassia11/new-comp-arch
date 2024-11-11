@@ -19,8 +19,8 @@ module testbench;
         .pc_next(pc_next)      // Output of next PC value (PC + 4)
     );
 
-    // Instantiate memory2c
-    memory2c MEMORY(
+    // Instantiate Instruction Memory
+    instruction_memory MEMORY(
         .data_out(instruction),  // Output: instruction data fetched
         .data_in(32'b0),         // Input: No data for writing (instruction fetch only)
         .addr(pc_out),           // Address input: current PC value
